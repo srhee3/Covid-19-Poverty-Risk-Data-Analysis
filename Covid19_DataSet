@@ -1,0 +1,6 @@
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("laurindogarcia/covid-19-race-gender-poverty-risk-us-county")
+
+print("Path to dataset files:", path)
